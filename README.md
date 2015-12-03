@@ -61,6 +61,8 @@ Render a filled PDF form from a blank PDF form and a set of field values.
 
 Reads `input` from `stdin` and writes the filled PDF form `Buffer` to `stdout`.
 
+If an error is encountered, the error message and stack trace will be written to `stderr` and the process will exit with a code of `1`.
+
 __Arguments__
 
 - `input` - An stringified JSON object containing the following fields:
