@@ -1,0 +1,19 @@
+{
+  "name": "@panosoft/pdf-form-fill",
+  "version": "0.0.0",
+  "description": "Render filled PDF forms.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": "git+ssh://gitosis@git.panosoft.com:chronicle/pdf-form-fill",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "spawn-promise": "^0.1.6"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "open": "0.0.5"
+  }
+}
