@@ -1,6 +1,6 @@
 {
   "name": "@panosoft/pdf-form-fill",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Render filled PDF forms.",
   "main": "lib/index.js",
   "scripts": {
