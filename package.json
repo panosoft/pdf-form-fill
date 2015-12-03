@@ -3,6 +3,9 @@
   "version": "0.1.1",
   "description": "Render filled PDF forms.",
   "main": "lib/index.js",
+  "bin": {
+    "pdfFormFill": "bin/index.js"
+  },
   "scripts": {
     "test": "node test/index.js"
   },
@@ -10,10 +13,11 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "co": "^4.6.0",
+    "get-stdin": "^5.0.1",
     "spawn-promise": "^0.1.6"
   },
   "devDependencies": {
-    "co": "^4.6.0",
     "open": "0.0.5"
   }
 }
