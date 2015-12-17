@@ -14,7 +14,7 @@ npm install @panosoft/pdf-form-fill
 
 ---
 
-<a name="render"/>
+<a name="render"></a>
 #### render ( input )
 
 Render a filled PDF form from a blank PDF form and a set of field values.
@@ -54,7 +54,7 @@ co(function * () {
 
 ---
 
-<a name="pdfFormFill"/>
+<a name="pdfFormFill"></a>
 #### pdfFormFill
 
 Render a filled PDF form from a blank PDF form and a set of field values.
