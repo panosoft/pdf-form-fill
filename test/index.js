@@ -10,7 +10,7 @@ const pdfToText = pdf => new Promise((resolve, reject) =>
 describe('pdf-form-fill', () => {
   describe('render', () => {
     it('render form', co.wrap(function * () {
-      this.timeout(10000);
+      this.timeout(30000);
       const input = require('./input.json');
       const pdf = yield render(input);
       const text = yield pdfToText(pdf);
