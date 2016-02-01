@@ -2,6 +2,9 @@
 
 Render filled PDF forms.
 
+[![npm version](https://img.shields.io/npm/v/@panosoft/pdf-form-fill.svg)](https://www.npmjs.com/package/@panosoft/pdf-form-fill)
+[![Travis](https://img.shields.io/travis/panosoft/pdf-form-fill.svg)](https://travis-ci.org/panosoft/pdf-form-fill)
+
 ## Installation
 
 ```sh
