@@ -7,17 +7,20 @@
     "pdfFormFill": "bin/index.js"
   },
   "scripts": {
-    "test": "node test/index.js"
+    "test": "mocha"
   },
-  "repository": "git+ssh://gitosis@git.panosoft.com:chronicle/pdf-form-fill",
+  "repository": "panosoft/pdf-form-fill",
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "dependencies": {
     "co": "^4.6.0",
     "get-stdin": "^5.0.1",
     "spawn-promise": "^0.1.6"
   },
   "devDependencies": {
-    "open": "0.0.5"
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "open": "0.0.5",
+    "pdf-text": "^0.4.0"
   }
 }
